@@ -1,0 +1,246 @@
+body {
+    margin : 0px;
+    /* background : url(../imgs/journey.jpg) */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg{
+    position: absolute;
+    top : 0;
+    left : 0;
+    /* background: url(/imgs/journey.jpg); */
+    background-size: cover;
+    background-position-x: 50%;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+/* header {
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* svg {
+        width: 2em;
+        margin-top: -.6em;
+        cursor:pointer;
+    }
+
+.nav{
+    display:none;
+} */
+
+.name {
+    color:rgb(255, 255, 255);
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: aqua;
+    font-size: 2em;
+    float: bottom;
+}
+
+.footer:hover {
+    background-color: rgb(0, 195, 195);
+    font-size: 2em;
+    font-weight: bolder;
+}
+.left-panel {
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    top: auto;
+}
+
+.main-content {
+    /* background-color: aqua; */
+    /* width: 65%; */
+    /* float: center; */
+    margin-left: 450px;
+}
+
+.right-panel {
+    /* background-color: rgb(185, 63, 83); */
+    /* width: 20%; */
+    float: right;
+    position: fixed;
+    top: 300px;
+    left: 94%;
+    /* text-align: center; */
+}
+/* 
+#about-me {
+    background-color : blue;
+    font-size: 2em;
+}
+
+#about-me:hover {
+    background-color : rgb(0, 0, 189);
+    font-size: 2em;
+    font-weight: bolder;
+} */
+
+#education {
+    background-color : rgb(0, 0, 0);
+    margin-top: 50px;
+    font-size: 2em;
+    font-weight: bolder;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+#carrier {
+    background-color : rgb(0, 0, 0);
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    /* padding: 10px; */
+}
+
+#company{
+    background-color: rgba(106, 106, 106, 0.449);
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#post{
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social {
+    /* color : white; */
+}
+
+.social-item {
+    background-color: rgb(10, 8, 12);
+    /* width:70%; */
+    /* float:right; */
+    font-size: 25px;
+    /* text-align: justify; */
+    /* width: 285px; */
+    line-height: 50px;
+    margin: 0px 5px 0px 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    box-sizing: border-box;
+    /* border: 10px solid rgb(80, 80, 80);  */
+}
+
+#icon {
+    height:50px;
+    /* align-items: left; */
+    /* align-content: flex-start; */
+}
+
+#fb:link {
+    /* color : blue; */
+    text-decoration: none;
+    target : "_blank";
+}
+
+#fb:visited {
+    color : red;
+    text-decoration: none;
+}
+
+#insta:link {
+    /* color : blue; */
+    text-decoration: none;
+    target : "_blank";
+}
+
+#insta:visited {
+    color : red;
+    text-decoration: none;
+}
+
+
+#git:link {
+    color : white;
+    text-decoration: none;
+    target : "_blank";
+    border: 10px;
+}
+
+#git:visited {
+    color : red;
+    text-decoration: none;
+}
+
+
+#gmail:link {
+    /* color : blue; */
+    text-decoration: none;
+    target : "_blank";
+}
+
+#gmail:visited {
+    color : red;
+    text-decoration: none;
+}
+
+
+#li:link {
+    /* color : blue; */
+    text-decoration: none;
+    target : "_blank";
+}
+
+#li:visited {
+    color : red;
+    text-decoration: none;
+}
+
+#clg {
+    background-color: rgba(106, 106, 106, 0.449);
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    
+    padding-left: 20px;
+}
+
+/* applied on tags which follows another tag */
+/* p + a {
+    color : blue;
+} */
+
+/* applied on tags which follows another tag and having common parent*/
+/* p ~ a {
+    color : blue;
+} */
+
+/* * = contains anywhere
+^ = starts with
+$ = ends with */
+
+#profile-photo {
+    /* border: 5px solid black; */
+    /* border-radius: 50%; */
+    height : 400px;
+    margin: 30px;
+    /* width: 20%; */
+}
+
+#course {
+    /* margin-left: 10px; */
+    /* background-color: steelblue; */
+}
