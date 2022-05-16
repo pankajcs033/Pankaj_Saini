@@ -50,7 +50,7 @@ body {
     font-weight: bolder;
 }
 .left-panel {
-    background: url(../imgs/profile_bg.jpg);
+    background: url(../../imgs/profile_bg.jpg);
     width: 30%;
     height: 100%;
     float: left;
