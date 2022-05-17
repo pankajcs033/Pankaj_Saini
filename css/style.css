@@ -49,6 +49,7 @@ body {
     font-size: 2em;
     font-weight: bolder;
 }
+
 .left-panel {
     background: url(../imgs/profile_bg.jpg);
     width: 30%;
@@ -65,15 +66,18 @@ body {
     margin-left: 450px;
 }
 
-.right-panel {
-    /* background-color: rgb(185, 63, 83); */
+.coding-profiles {
+    /* background-color: rgb(0, 0, 0); */
     /* width: 20%; */
     float: right;
     position: fixed;
-    top: 300px;
+    top: 170px;
     left: 94%;
+    /* border: 2px solid black; */
     /* text-align: center; */
 }
+
+
 /* 
 #about-me {
     background-color : blue;
@@ -92,9 +96,55 @@ body {
     font-size: 2em;
     font-weight: bolder;
     padding-left: 20px;
+    padding-top: 5px;
     color: rgb(255, 255, 255);
 }
 
+#achievements {
+    background-color : rgb(2, 0, 63);
+    margin-top: 50px;
+    font-size: 2em;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+#certificates {
+    background-color : rgb(2, 0, 63);
+    margin-top: 50px;
+    font-size: 2em;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+#certi-list {
+    background-color: rgba(106, 106, 106, 0.449);
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5em;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+#dates {
+    margin-top: 0px;
+    /* margin-bottom: 15px; */
+    background-color: black;
+    color : white;
+    padding: 5px 0px 5px 20px;
+}
+
+#achi-list {
+    background-color: rgba(106, 106, 106, 0.449);
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5em;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
 
 #carrier {
     background-color : rgb(2, 0, 63);
@@ -102,6 +152,7 @@ body {
     font-weight: bolder;
     color: rgb(255, 255, 255);
     padding-left: 20px;
+    padding-top: 5px;
     /* padding: 10px; */
 }
 
@@ -109,9 +160,13 @@ body {
     background-color: rgba(106, 106, 106, 0.449);
     font-weight: bold;
     padding-left: 20px;
+    margin-bottom: 0px;
 }
 
 #post{
+    margin-left: -40px;
+    margin-top: 0px;
+    padding: 5px 10px 10px 10px;
     font-weight: bold;
 }
 
@@ -120,26 +175,32 @@ ul {
 }
 
 .social {
-    /* color : white; */
+    /* background-color: rgb(185, 63, 83); */
+    /* width: 20%; */
+    float: right;
+    position: fixed;
+    top: 350px;
+    left: 94%;
+    /* text-align: center; */
 }
 
 .social-item {
-    background-color: rgb(10, 8, 12);
+    /* background-color: rgb(10, 8, 12); */
     /* width:70%; */
     /* float:right; */
-    font-size: 25px;
+    /* font-size: 25px; */
     /* text-align: justify; */
     /* width: 285px; */
-    line-height: 50px;
+    line-height: 20px;
     margin: 0px 5px 0px 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.275);
     padding: 10px;
     text-decoration: none;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    text-align: center;
+    text-align: center; */
     box-sizing: border-box;
     /* border: 10px solid rgb(80, 80, 80);  */
 }
@@ -149,9 +210,8 @@ ul {
     /* align-items: left; */
     /* align-content: flex-start; */
 }
-
+/* 
 #fb:link {
-    /* color : blue; */
     text-decoration: none;
     target : "_blank";
 }
@@ -162,7 +222,6 @@ ul {
 }
 
 #insta:link {
-    /* color : blue; */
     text-decoration: none;
     target : "_blank";
 }
@@ -187,7 +246,6 @@ ul {
 
 
 #gmail:link {
-    /* color : blue; */
     text-decoration: none;
     target : "_blank";
 }
@@ -199,7 +257,6 @@ ul {
 
 
 #li:link {
-    /* color : blue; */
     text-decoration: none;
     target : "_blank";
 }
@@ -207,14 +264,14 @@ ul {
 #li:visited {
     color : red;
     text-decoration: none;
-}
+} */
 
 #clg {
     background-color: rgba(106, 106, 106, 0.449);
     font-weight: bold;
     font-family: 'Jost', sans-serif;
-    
     padding-left: 20px;
+    margin-bottom: 0px;
 }
 
 /* applied on tags which follows another tag */
@@ -240,6 +297,11 @@ $ = ends with */
 }
 
 #course {
+    /* background-color: rgba(28, 28, 28, 0.336); */
+    margin-left: -40px;
+    margin-top: 0px;
+    padding: 5px 10px 10px 10px;
+    /* border: 2px solid black; */
     /* margin-left: 10px; */
     /* background-color: steelblue; */
 }
